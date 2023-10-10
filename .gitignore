@@ -107,7 +107,6 @@ get_folderstructure.py
 .history/*
 
 # Environments
-.env
 .venv
 env/
 venv/
