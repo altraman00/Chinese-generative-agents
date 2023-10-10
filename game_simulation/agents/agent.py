@@ -136,7 +136,6 @@ class Agent:
             if agent.location == self.location:
                 self.memories.append('[Time: {}. Person: {}. Memory: {}]\n'.format(str(global_time), agent.name, action_results[agent.name]))
 
-
     def compress_memories(self, global_time, memory_limit=10):
 
         """
