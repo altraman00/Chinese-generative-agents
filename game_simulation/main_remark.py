@@ -136,7 +136,7 @@ for repeat in range(repeats):
                 if print_ratings:
                     print(f"{agent.name} memory ratings: {agent.memory_ratings}")
 
-    print(f"****************************************************Rate Locations****************************************************")
+    print(f"***************************************************Rate Locations****************************************************")
 
     # 对地点进行打分，用于后续决定下一步去哪个地方
     # Rate locations and determine where agents will go next
